@@ -1,0 +1,59 @@
+[
+  {
+    "op": "add_voice",
+    "name": "body",
+    "wave": "sine",
+    "freq": 660.0,
+    "gain": -20.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 800.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "body",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "body",
+    "slide_to_hz": 297.0,
+    "over_ms": 800.0
+  },
+  {
+    "op": "add_sample",
+    "name": "clang_metal",
+    "t_ms": 0.0,
+    "gain": -25.0,
+    "pitch": 0.0,
+    "trim_in_ms": null,
+    "trim_out_ms": null,
+    "fade_in_ms": 0.0,
+    "fade_out_ms": 180.0,
+    "reverse": false
+  },
+  {
+    "op": "add_voice",
+    "name": "bell0",
+    "wave": "sine",
+    "freq": 990.0,
+    "gain": -25.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 500.0
+  },
+  {
+    "op": "add_voice",
+    "name": "bell1",
+    "wave": "sine",
+    "freq": 1320.0,
+    "gain": -25.0,
+    "pan": 0.0,
+    "start_ms": 110.0,
+    "dur_ms": 500.0
+  }
+]

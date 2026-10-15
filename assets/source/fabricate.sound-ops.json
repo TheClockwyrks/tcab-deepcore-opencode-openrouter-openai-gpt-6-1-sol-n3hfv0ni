@@ -1,0 +1,39 @@
+[
+  {
+    "op": "add_voice",
+    "name": "body",
+    "wave": "triangle",
+    "freq": 520.0,
+    "gain": -23.0,
+    "pan": 0.0,
+    "start_ms": 0.0,
+    "dur_ms": 450.0
+  },
+  {
+    "op": "set_envelope",
+    "voice": "body",
+    "attack_ms": null,
+    "decay_ms": null,
+    "sustain": null,
+    "release_ms": null,
+    "env": "pluck"
+  },
+  {
+    "op": "set_pitch",
+    "voice": "body",
+    "slide_to_hz": 780.0,
+    "over_ms": 450.0
+  },
+  {
+    "op": "add_sample",
+    "name": "mech_ratchet",
+    "t_ms": 0.0,
+    "gain": -25.0,
+    "pitch": 0.0,
+    "trim_in_ms": null,
+    "trim_out_ms": null,
+    "fade_in_ms": 0.0,
+    "fade_out_ms": 180.0,
+    "reverse": false
+  }
+]

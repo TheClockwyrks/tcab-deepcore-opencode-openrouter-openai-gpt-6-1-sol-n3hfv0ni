@@ -1,0 +1,7 @@
+/* Keep the page's viewport-sized surface authoritative. The engine alone
+   measures this surface, fits the logical stage, and sizes its backing store. */
+#stage {
+  width: 100vw !important;
+  height: 100vh !important;
+  background: #0a1520;
+}
